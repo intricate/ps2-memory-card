@@ -1,0 +1,18 @@
+index-state: 2024-07-23T17:33:54Z
+
+packages:
+  ps2-memory-card
+
+package ps2-memory-card
+  ghc-options: -Wall -Werror -Wredundant-constraints -Wincomplete-uni-patterns -Wincomplete-record-updates -Wpartial-fields -Wunused-imports
+
+-- Disable all tests by default.
+
+tests: False
+
+test-show-details: direct
+
+-- Then enable specific tests for individual packages in this repository.
+
+package ps2-memory-card
+  tests: True
